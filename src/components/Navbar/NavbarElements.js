@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -23,7 +24,7 @@ export const NavLink = styled(Link)`
     top: 10px;
     left: 25px;
   }
-`
+`;
 
 export const NavIcon = styled.div`
   display: block;
