@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -29,19 +29,22 @@ export const NavLink = styled(Link)`
 export const NavIcon = styled.div`
   display: block;
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 0;
   cursor: pointer;
   color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 
   p {
     transform: translate(-175%, 100%);
     font-weight: 2rem;
     transform: translate(-50%, -15%);
   }
-`
+`;
 
 export const Bars = styled(BiDrink)`
+  margin-top: 1rem;
   font-size: 2rem;
   transform: translate(-50%, -15%);
-`
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+`;

@@ -8,28 +8,31 @@ import {
   ProductTitle,
   ProductDesc,
   ProductPrice,
-  ProductBtn
+  ProductBtn,
+  ProductInfo
 } from './ProductsElements';
 
 const Products = ({heading, data}) => {
   return (
     <div>
-      {/* <ProductsContainer>
+      <ProductsContainer>
         <ProductsHeading>{heading}</ProductsHeading>
           <ProductWrapper>
             {data.map((product, index) => {
               return (
                 <ProductCard key={index}>
                   <ProductImg src={product.img} alt={product.alt} />
-                  <ProductTitle>{product.name}</ProductTitle>
-                  <ProductDesc>{product.desc}</ProductDesc>
-                  <ProductPrice>{product.price}</ProductPrice>
-                  <ProductBtn>{product.button}</ProductBtn>
+                  <ProductInfo>
+                    <ProductTitle>{product.name}</ProductTitle>
+                    <ProductDesc>{product.desc}</ProductDesc>
+                    <ProductPrice>{product.price}</ProductPrice>
+                    <ProductBtn>{product.button}</ProductBtn>
+                  </ProductInfo>
                 </ProductCard>
               )
             })}
           </ProductWrapper>
-      </ProductsContainer> */}
+      </ProductsContainer>
     </div>
   )
 }

@@ -42,7 +42,8 @@ export const HeroH1 = styled.h1`
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   font-size: clamp(1.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
-  box-shadow: 3px 5px #e9ba23;
+  padding-right: 10px;
+  box-shadow: 3px 5px #cefa02;
   letter-spacing: 2px;
   color: #fff;
 `;
@@ -59,11 +60,11 @@ export const HeroBtn = styled.button`
   border: none;
   background: #e31837;
   color: #fff;
-  /* transition: 0.2s ease-out; */
+  transition: 0.1s ease-in-out;
 
   &:hover {
     background: #cefa02;
-    /* transition: 0.2s ease-out; */
+    transition: 0.1s ease-in-out;
     cursor: pointer;
     color: #000;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
