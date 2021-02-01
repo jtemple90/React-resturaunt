@@ -6,6 +6,7 @@ import Sidebar from './components/SideBar';
 import Products from './components/Products';
 import { productData, productData2 } from './components/Products/data'
 import Feature from './components/Feature';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Sidebar />
         <Feature />
         <Products heading="Our Best Sellers!!" data={productData2} />
+        <Footer/>
       </Router>
     </div>
   );
